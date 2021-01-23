@@ -9,6 +9,7 @@ const message1 = document.querySelector('#msg1')
 const message2 = document.querySelector('#msg2')
 
 
+
 weatherForm.addEventListener('submit', (e) => {
     e.preventDefault()
     const location = search.value
@@ -21,7 +22,7 @@ weatherForm.addEventListener('submit', (e) => {
                 message1.textContent = data.error
             }
             else {
-                message1.textContent = data.location
+                message1.textContent =  data.location
                 message2.textContent = data.forcast
             }
         })
