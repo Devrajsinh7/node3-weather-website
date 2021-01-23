@@ -27,6 +27,7 @@ app.get('', (req, res) => {
         name: 'Devraj'
     })
 })
+ 
 
 //about page
 app.get('/about', (req, res) => {
